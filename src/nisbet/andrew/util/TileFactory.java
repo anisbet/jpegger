@@ -132,5 +132,27 @@ public class TileFactory
 		return this.numTilesWide;
 	}
 
-	
+	public static class EightByEightTile extends Tile
+        {
+            public EightByEightTile()
+            {
+                super(8);
+            }
+        }
+        
+        public static class TwoByTwoTile extends Tile
+        {
+            public TwoByTwoTile()
+            {
+                super(2);
+            }
+        }
+        
+        public static class OneByOneTile extends Tile
+        {
+            public OneByOneTile()
+            {
+                super(1);
+            }
+        }
 }
